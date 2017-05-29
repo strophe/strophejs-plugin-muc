@@ -1,0 +1,22 @@
+{
+  "name": "strophejs-plugin-muc",
+  "version": "1.0.0",
+  "description": "This plugin implements XEP-0045.",
+  "main": "strophe.muc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strophe/strophejs-plugin-muc.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/strophe/strophejs-plugin-muc/issues"
+  },
+  "homepage": "https://github.com/strophe/strophejs-plugin-muc#readme"
+}
