@@ -6,6 +6,7 @@
  *Complete CoffeeScript rewrite:
     Andreas Guth <guth@dbis.rwth-aachen.de>
 ###
+`import { $build, $iq, $msg, $pres, Strophe } from 'strophe.js';`
 
 Strophe.addConnectionPlugin 'muc',
   _connection: null

@@ -1,12 +1,14 @@
 {
   "name": "strophejs-plugin-muc",
   "version": "1.0.0",
-  "description": "This plugin implements XEP-0045.",
-  "main": "strophe.muc.js",
+  "description": "A strophe.js plugin for Multi-User Chat (XEP-0045)",
+  "main": "lib/strophe.muc.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
+    "build": "rollup -c",
+    "prepublish": "npm run --silent build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/strophe/strophejs-plugin-muc/issues"
   },
-  "homepage": "https://github.com/strophe/strophejs-plugin-muc#readme"
+  "homepage": "https://github.com/strophe/strophejs-plugin-muc#readme",
+  "devDependencies": {
+    "coffee-script": "^1.12.6",
+    "rollup-plugin-coffee-script": "^1.1.0",
+    "rollup": "^0.45.0"
+  },
+  "peerDependencies": {
+    "strophe.js": ">=1.2"
+  }
 }
